@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.childlearningapp.SceneController">
+   <children>
+      <AnchorPane prefHeight="434.0" prefWidth="673.0" style="-fx-background-color: skyblue;">
+         <children>
+            <TextField fx:id="cansiq" editable="false" layoutX="301.0" layoutY="163.0" prefHeight="42.0" prefWidth="58.0" />
+            <Label layoutX="55.0" layoutY="88.0" prefHeight="31.0" prefWidth="218.0" text="YOUR SCORE:" textAlignment="CENTER">
+               <font>
+                  <Font name="DejaVu Sans Bold" size="26.0" />
+               </font>
+            </Label>
+            <Label layoutX="53.0" layoutY="169.0" text="Correct answers:" textFill="#157b2a">
+               <font>
+                  <Font name="DejaVu Sans Bold" size="26.0" />
+               </font>
+            </Label>
+            <Label layoutX="53.0" layoutY="244.0" text="Incorrect answers:" textFill="#dc504a">
+               <font>
+                  <Font name="DejaVu Sans Bold" size="26.0" />
+               </font>
+            </Label>
+            <TextField fx:id="scriq" editable="false" layoutX="258.0" layoutY="82.0" prefHeight="42.0" prefWidth="58.0" />
+            <TextField fx:id="iansiq" editable="false" layoutX="327.0" layoutY="238.0" prefHeight="42.0" prefWidth="58.0" />
+            <Button layoutX="188.0" layoutY="22.0" mnemonicParsing="false" onAction="#ShowResiq" text="Click Here To See Result!">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button layoutX="40.0" layoutY="359.0" mnemonicParsing="false" onAction="#switchToLangChoose" prefHeight="31.0" prefWidth="52.0" text="Exit">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

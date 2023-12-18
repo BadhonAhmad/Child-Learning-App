@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.childlearningapp.BanglaController">
+   <children>
+      <ImageView fitHeight="533.0" fitWidth="678.0" layoutX="-7.0" layoutY="-26.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pegion.jpg" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" layoutX="366.0" layoutY="235.0" prefHeight="256.0" prefWidth="267.0" text="বাক বাকুম পায়রা&#10;---------------------&#10;বাক বাকুম পায়রা&#10;মাথাই দিয়ে টায়রা&#10;বউ সাজবে কাল কি&#10;চড়বে সোনার পালকি">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </TextArea>
+      <Button layoutY="194.0" mnemonicParsing="false" onAction="#switchToKobita5" prefHeight="58.0" prefWidth="50.0" style="-fx-background-color: skyblue; -fx-background-radius: 10px;" text="&lt;">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="38.0" layoutY="431.0" mnemonicParsing="false" onAction="#switchToBanglaLang" style="-fx-background-radius: 10px;" text="Exit">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

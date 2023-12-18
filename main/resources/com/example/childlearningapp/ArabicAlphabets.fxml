@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="650.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.childlearningapp.ArabicController">
+   <children>
+      <ImageView fitHeight="621.0" fitWidth="726.0" layoutX="3.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@arabic_alph.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="3.0" layoutY="611.0" mnemonicParsing="false" onAction="#switchToArabicLang" text="Back">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="167.0" layoutY="10.0" style="-fx-background-color: skyblue;" text="Arabic Alphabets">
+         <font>
+            <Font name="Segoe UI Semibold" size="19.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

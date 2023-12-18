@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.childlearningapp.BanglaController">
+   <children>
+      <ImageView fitHeight="434.0" fitWidth="927.0" layoutX="-4.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@moon%20(1).jpg" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" layoutX="460.0" layoutY="18.0" prefHeight="398.0" prefWidth="238.0" text="আয় আয় চাঁদ মামা&#10;----------------------&#10;আয় আয় চাঁদ মামা&#10;টিপ দিয়ে যা।&#10;চাঁদের কপালের চাঁদ&#10;টিপ দিয়ে যা।&#10;ধান ভানলে কুড়ো দিব&#10;মাছ কাটলে মুড়ো দিব,&#10;কালো গাইয়ের দুধ দিব&#10;দুধ খাবার বাটি দিব,&#10;চাঁদের কপালের চাঁদ&#10;টিপ দিয়ে যা।">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </TextArea>
+      <Button layoutX="699.0" layoutY="201.0" mnemonicParsing="false" onAction="#switchToKobita6" prefHeight="58.0" prefWidth="49.0" style="-fx-background-color: skyblue; -fx-background-radius: 10px;" text="&gt;">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutY="178.0" mnemonicParsing="false" onAction="#switchToKobita4" prefHeight="58.0" prefWidth="50.0" style="-fx-background-color: skyblue; -fx-background-radius: 10px;" text="&lt;">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="32.0" layoutY="370.0" mnemonicParsing="false" onAction="#switchToBanglaLang" style="-fx-background-radius: 10px;" text="Exit">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

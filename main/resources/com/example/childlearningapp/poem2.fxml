@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="422.0" prefWidth="739.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.childlearningapp.EnglishController">
+   <children>
+      <ImageView fitHeight="420.0" fitWidth="739.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@green.jpg" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" layoutX="185.0" layoutY="191.0" prefHeight="230.0" prefWidth="217.0" text="I Love My Country&#10;--------------------&#10;I love my country&#10;I love my land &#10;Green Bangladesh&#10;My motherland.&#10;">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </TextArea>
+      <Button layoutX="689.0" layoutY="218.0" mnemonicParsing="false" onAction="#switchToPoem3" prefHeight="58.0" prefWidth="49.0" style="-fx-background-radius: 10px;" text="&gt;">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="-1.0" layoutY="211.0" mnemonicParsing="false" onAction="#switchToPoem1" prefHeight="58.0" prefWidth="50.0" style="-fx-background-radius: 10px;" text="&lt;">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="14.0" layoutY="368.0" mnemonicParsing="false" onAction="#switchToEnglish" style="-fx-background-radius: 10px; -fx-background-color: skyblue;" text="Exit" textFill="#0b0000">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

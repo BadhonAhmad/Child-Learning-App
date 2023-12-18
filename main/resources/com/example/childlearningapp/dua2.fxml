@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="708.0" prefWidth="914.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.childlearningapp.ArabicController">
+   <children>
+      <Label layoutX="11.0" style="-fx-background-color: indigo; -fx-background-radius: 10;" text="QURANIC DUA" textFill="#faf4f4">
+         <font>
+            <Font name="DejaVu Sans Bold" size="22.0" />
+         </font>
+      </Label>
+      <TextArea editable="false" layoutX="14.0" layoutY="30.0" prefHeight="661.0" prefWidth="910.0" text="1)&#10;رَبَّنَا وَٱجۡعَلۡنَا مُسۡلِمَيۡنِ لَكَ وَمِن ذُرِّيَّتِنَآ أُمَّةٗ مُّسۡلِمَةٗ لَّكَ وَأَرِنَا مَنَاسِكَنَا وَتُبۡ عَلَيۡنَآۖ إِنَّكَ أَنتَ ٱلتَّوَّابُ ٱلرَّحِيمُ&#10;রাব্বানা ওয়াজ’আলনা মুসলিমাইনি লাকা ওয়া মিন জুররিয়াতিনা উম্মাতাম মুসলিমতাল লাকা ওয়া আরিনা &#10;মানাসিকনা ওয়া তুব ‘আলাইনা ইন্নাকা আন্তাত তাওয়াবুর রাহীম&#10;“আমাদের পালনকর্তা, এবং আমাদেরকে আপনার [আনুগত্য করে] মুসলমান করুন এবং আমাদের বংশধর&#10;দের মধ্য থেকে আপনার [আনুগত্যশীল] একটি মুসলিম জাতি করুন। এবং আমাদের [ইবাদতের] আচার &#10;দেখাও এবং আমাদের তওবা কবুল কর। নিশ্চয়ই তুমি তওবা কবুলকারী, করুণাময়।&quot;– 2:128 –&#10;2)&#10;رَبَّنَآ ءَاتِنَا فِي ٱلدُّنۡيَا حَسَنَةٗ وَفِي ٱلۡأٓخِرَةِ حَسَنَةٗ وَقِنَا عَذَابَ ٱلنَّارِ&#10;রাব্বানা আতিনা ফিদ দুনিয়া হাসনাতানওয়া ওয়া ফিল আখিরাতি হাসানাতনওয়া ওয়া কিনা আজাবান নার&#10;&quot;হে আমাদের পালনকর্তা, আমাদেরকে দুনিয়াতে [যা] কল্যাণ দান করুন এবং আখিরাতে [যা] কল্যাণ করুন&#10; এবং আমাদেরকে আগুনের শাস্তি থেকে রক্ষা করুন।&quot; – 2:201 –&#10;3)&#10;رَبَّنَآ أَفۡرِغۡ عَلَيۡنَا صَبۡرٗا وَثَبِّتۡ أَقۡدَامَنَا وَٱنصُرۡنَا عَلَى ٱلۡقَوۡمِ ٱلۡكَٰفِرِينَ&#10;রাব্বানা আফরিঘ ‘আলাইনা সাবরানউ ওয়া সাব্বিত আকদামানা ওয়ানসুরনা ‘আলাল কওমিল কাফিরীন&#10;&quot;হে আমাদের পালনকর্তা, আমাদেরকে ধৈর্য দান করুন এবং আমাদের পা দৃঢ়ভাবে রোপণ করুন এবং&#10; আমাদেরকে কাফের সম্প্রদায়ের বিরুদ্ধে বিজয় দান করুন।&quot;- 2:250 -&#10;4)&#10;رَبَّنَا لَا تُؤَاخِذۡنَآ إِن نَّسِينَآ أَوۡ أَخۡطَأۡنَاۚ&#10;রাব্বানা লা তু’আখিজনা ইন নাসীনা আউ আখতানা&#10;&quot;হে আমাদের পালনকর্তা, আমরা যদি ভুলে যাই বা ভুল করি তাহলে আমাদের উপর দোষ চাপিয়ে দিও না।&quot;">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextArea>
+      <Button layoutX="890.0" layoutY="366.0" mnemonicParsing="false" onAction="#switchToDua3" style="-fx-background-color: skyblue;" text="&gt;">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="11.0" layoutY="671.0" mnemonicParsing="false" onAction="#switchToArabicLang" style="-fx-background-color: blue;" text="Exit" textFill="#fffbfb">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="-2.0" layoutY="369.0" mnemonicParsing="false" onAction="#switchToDua1" style="-fx-background-color: skyblue;" text="&lt;">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="678.0" prefWidth="863.0" style="-fx-background-color: skyblue;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.childlearningapp.BanglaController">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" style="-fx-background-color: blue; -fx-background-radius: 10px;" text="১ থেকে ৫০ বানানসহঃ" textFill="#f4f2f2">
+         <font>
+            <Font name="DejaVu Sans Bold" size="26.0" />
+         </font>
+      </Label>
+      <TextArea editable="false" layoutX="14.0" layoutY="57.0" prefHeight="590.0" prefWidth="167.0" text="১-এক&#10;২-দুই&#10;৩-তিন&#10;৪-চার&#10;৫-পাঁচ&#10;৬-ছয়&#10;৭-সাত&#10; ৮-আট&#10;৯-নয়&#10;১০-দশ&#10;১১-এগার&#10;১২-বারো&#10;১৩-তেরো&#10;১৪-চৌদ্দ  ">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </TextArea>
+      <TextArea editable="false" layoutX="208.0" layoutY="57.0" prefHeight="590.0" prefWidth="182.0" text="১৫-পনেরো&#10;১৬-ষোল&#10;১৭-সতেরো&#10;১৮-আঠারো&#10;১৯-উনিশ &#10;২০-বিশ &#10;২১-একুশ&#10;২২-বাইশ &#10;২৩-তেইশ &#10;২৪-চব্বিশ&#10;২৫-পঁচিশ&#10;২৬-ছাব্বিশ&#10;২৭-সাতাশ&#10;২৮-আঠাশ ">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </TextArea>
+      <TextArea editable="false" layoutX="412.0" layoutY="57.0" prefHeight="590.0" prefWidth="198.0" text="২৯-ঊনত্রিশ&#10;৩০-ত্রিশ&#10;৩১-একত্রিশ&#10;৩২-বত্রিশ&#10;৩৩-তেত্রিশ&#10;৩৪-চৌত্রিশ&#10;৩৫-পঁয়ত্রিশ&#10;৩৬-ছত্রিশ&#10;৩৭-সাঁইত্রিশ&#10;৩৮-আটত্রিশ&#10;৩৯-ঊনচল্লিশ&#10;৪০-চল্লিশ&#10;৪১-একচল্লিশ&#10;৪২-বিয়াল্লিশ">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </TextArea>
+      <TextArea editable="false" layoutX="631.0" layoutY="57.0" prefHeight="590.0" prefWidth="218.0" text="৪৩-তেতাল্লিশ&#10;৪৪-চুয়াল্লিশ&#10;৪৫-পঁয়তাল্লিশ&#10;৪৬-ছেচল্লিশ&#10;৪৭-সাতচল্লিশ&#10;৪৮-আটচল্লিশ&#10;৪৯-উনপঞ্চাশ&#10;৫০-পঞ্চাশ">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </TextArea>
+      <Button layoutX="14.0" layoutY="646.0" mnemonicParsing="false" onAction="#switchToBanglaLang" style="-fx-background-radius: 10;" text="Back">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="706.0" prefWidth="860.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.childlearningapp.ArabicController">
+   <children>
+      <TextArea editable="false" prefHeight="706.0" prefWidth="860.0" text="প্রিয় নবী হযরত মুহাম্মদ (সঃ) এর গুরুত্বপূর্ণ  কিছু হাদিসঃ&#10;&#10;১. তোমার ঈমানকে খাঁটি কর, অল্প আমলই নাজাতের জন্য যথেষ্ট হইবে।&#10;২. তোমাদের মধ্যে সর্বোত্তম ঐ ব্যক্তি, যে কুরআন মাজীদ শিক্ষা করে এবং শিক্ষা দেয়।&#10;৩.  (দ্বীনি) ইলম তলব করা প্রত্যেক মুসলমানের উপর ফরয।&#10;৪. পবিত্রতা ঈমানের অঙ্গ।&#10;৫. নামায বেহেশতের চাবি।&#10;৬. কিয়ামতের দিন সর্বপ্রথম নামাযেরই হিসাব হইবে ।&#10;৭. তোমাদের মধ্যে সর্বাপেক্ষা ছোট ব্যক্তি হইতে আমার মর্তবা যত বড়, (বে-ইলম) &#10;আবেদের চেয়ে একজন (খাটি) আলেমের মর্তবা তত বড়।&#10;৮. দু’আই ইবাদত।&#10;৯. যে ব্যক্তি আল্লাহ তা’আলার নিকট দু’আ করে না; আল্লাহ তা’আলা তাহার &#10;উপর রাগান্বিত হন।&#10;১০. আল্লাহ তা’আলা ঐ ব্যক্তির উপর রহম করেন না, যে মানুষের উপর রহম করে না।&#10;১১. খাঁটি মুসলমান ঐ ব্যক্তি, যাহার হাত ও মুখ হইতে অপর মুসলমান নিরাপদ থাকে।&#10;১২. দুনিয়ার মুহাব্বাত সমস্ত গুনাহের মূল।&#10;১৩. শেষ আমলই নির্ভরযোগ্য।&#10;১৪. ঈমানদারদের জন্য মৃত্যু উপহারস্বরূপ।&#10;১৫. যাহা শুনে তাহাই বলিতে থাকা, কোন ব্যক্তির মিথ্যাবাদী হওয়ার জন্য ইহাই যথেষ্ট।&#10;১৬. হারাম ভক্ষণকারীর শরীর বেহেশতে প্রবেশ করিবে না।&#10;১৭.  আমার পক্ষ হইতে একটি বাণী হইলেও পৌঁছাইয়া দাও ।&#10;১৮. যে চুপ থাকে সে নাজাত পায়।&#10;১৯. সমস্ত কাজই নিয়তের উপর নির্ভর করে।&#10;২০. আত্মীয়তা ছিন্নকারী বেহেশতে প্রবেশ করিবে না।&#10;">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextArea>
+      <Button layoutX="810.0" layoutY="341.0" mnemonicParsing="false" onAction="#switchToHadith2" prefHeight="58.0" prefWidth="49.0" style="-fx-background-color: skyblue; -fx-background-radius: 10px;" text="&gt;">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="21.0" layoutY="652.0" mnemonicParsing="false" onAction="#switchToArabicLang" style="-fx-background-radius: 10px; -fx-background-color: skyblue;" text="Exit">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

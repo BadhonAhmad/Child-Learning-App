@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="459.0" prefWidth="690.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.childlearningapp.EnglishController">
+   <children>
+      <ImageView fitHeight="544.0" fitWidth="784.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@father_son.jpg" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" layoutX="76.0" layoutY="8.0" prefHeight="328.0" prefWidth="275.0" text="Johny Johny Yes Papa&#10;--------------------------&#10;Johny,Johny!&#10;Yes,Papa&#10;Eating sugar?&#10;No,Papa&#10;Telling lies?&#10;No,Papa&#10;Open your mouth!&#10;Ha! Ha! Ha! ">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </TextArea>
+      <Button layoutY="236.0" mnemonicParsing="false" onAction="#switchToPoem4" text="&lt;">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+      <Button layoutX="737.0" layoutY="225.0" mnemonicParsing="false" onAction="#switchToPoem6" text="&gt;">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+      <Button layoutX="30.0" layoutY="464.0" mnemonicParsing="false" onAction="#switchToEnglish" style="-fx-background-radius: 10px; -fx-background-color: skyblue;" text="Exit" textFill="#0b0000">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

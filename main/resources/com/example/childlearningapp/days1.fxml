@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="420.0" prefWidth="614.0" style="-fx-background-color: ;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.childlearningapp.NameGameController">
+   <children>
+      <ImageView fitHeight="447.0" fitWidth="672.0" layoutX="2.0" pickOnBounds="true" preserveRatio="true" style="-fx-background-color: indigo; -fx-background-radius: 10;">
+         <image>
+            <Image url="@seasons.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="103.0" layoutY="28.0" prefHeight="38.0" prefWidth="365.0" style="-fx-background-color: blue;" text="Week,Month,Season" textFill="#f9faf4">
+         <font>
+            <Font name="Segoe UI Semibold" size="22.0" />
+         </font>
+      </Label>
+      <Button layoutX="111.0" layoutY="89.0" mnemonicParsing="false" onAction="#switchToWeek" style="-fx-background-color: indigo; -fx-background-radius: 10;" text="Week" textFill="WHITE">
+         <font>
+            <Font name="DejaVu Sans Bold" size="20.0" />
+         </font></Button>
+      <Button layoutX="111.0" layoutY="204.0" mnemonicParsing="false" onAction="#switchToSeason" style="-fx-background-color: indigo; -fx-background-radius: 10;" text="Season" textFill="WHITE">
+         <font>
+            <Font name="DejaVu Sans Bold" size="20.0" />
+         </font></Button>
+      <Button layoutX="111.0" layoutY="153.0" mnemonicParsing="false" onAction="#switchToMonth" style="-fx-background-color: indigo; -fx-background-radius: 10;" text="Month" textFill="WHITE">
+         <font>
+            <Font name="DejaVu Sans Bold" size="20.0" />
+         </font></Button>
+      <Button layoutX="22.0" layoutY="386.0" mnemonicParsing="false" onAction="#switchToDifferentNames" style="-fx-background-radius: 10px; -fx-background-color: skyblue;" text="Exit">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

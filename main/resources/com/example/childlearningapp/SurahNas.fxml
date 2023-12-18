@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="664.0" prefWidth="786.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.childlearningapp.ArabicController">
+   <children>
+      <TextArea editable="false" layoutX="59.0" layoutY="43.0" prefHeight="667.0" prefWidth="749.0" text="بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ&#10;বিছমিল্লাহির রাহমানির রাহিম।&#10;শুরু করছি আল্লাহর নামে যিনি পরম করুণাময়, অতি দয়ালু।&#10;&#10;(1)قُلْ أَعُوذُ بِرَبِّ النَّاسِ&#10;কুল আ’উযুবিরাব্বিন্না-ছ।&#10;বলুন, আমি আশ্রয় গ্রহণ করিতেছি মানুষের পালনকর্তার,&#10;(2)مَلِكِ النَّاسِ&#10;মালিকিন্না-ছ&#10;মানুষের অধিপতির,&#10;(3)إِلَـٰهِ النَّاسِ&#10;ইলা-হিন্না-ছ।&#10;মানুষের মা’বুদের&#10;(4)مِن شَرِّ الْوَسْوَاسِ الْخَنَّاسِ&#10;মিন শাররীল ওয়াছ ওয়া-ছিল খান্না-ছ।&#10;তার অনিষ্ট থেকে, যে কুমন্ত্রণা দেয় ও আত্নগোপন করে,&#10;(5)الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ&#10;আল্লাযি ইউওয়াছ ইসু ফী সুদুরিন্নাছ-।&#10;যে কুমন্ত্রণা দেয় মানুষের অন্তরে&#10;(6)مِنَ الْجِنَّةِ وَالنَّاسِ&#10;মিনাল জিন্নাতি ওয়ান্না-ছ।&#10;জ্বিনের মধ্য থেকে অথবা মানুষের মধ্য থেকে।&#10;">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </TextArea>
+      <Label layoutX="29.0" layoutY="17.0" prefHeight="26.0" prefWidth="509.0" style="-fx-background-color: skyblue;" text=" সূরা নাস, মাদানী সূরা,আয়াত সংখ্যা ৬">
+         <font>
+            <Font name="DejaVu Sans Mono Bold" size="21.0" />
+         </font>
+      </Label>
+      <Button layoutX="754.0" layoutY="351.0" mnemonicParsing="false" onAction="#switchToSurahIkhlas" prefHeight="58.0" prefWidth="49.0" style="-fx-background-color: skyblue; -fx-background-radius: 10px;" text="&gt;">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="4.0" layoutY="355.0" mnemonicParsing="false" onAction="#switchToSurahFatiha" prefHeight="58.0" prefWidth="50.0" style="-fx-background-color: skyblue; -fx-background-radius: 10px;" text="&lt;">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="14.0" layoutY="656.0" mnemonicParsing="false" onAction="#switchToArabicLang" style="-fx-background-radius: 10px;" text="Exit">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

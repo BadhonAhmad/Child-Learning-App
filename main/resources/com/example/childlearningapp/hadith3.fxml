@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="673.0" prefWidth="873.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.childlearningapp.ArabicController">
+   <children>
+      <TextArea editable="false" layoutX="18.0" layoutY="1.0" prefHeight="658.0" prefWidth="858.0" text="প্রিয় নবী হযরত মুহাম্মদ (সঃ) এর গুরুত্বপূর্ণ  কিছু হাদিসঃ&#10;&#10;৪০. যে নম্রতা হইতে বঞ্চিত, সে কল্যাণ থেকে বঞ্চিত।&#10;৪১. ঐ ব্যক্তি বীর নয়, যে লোকদেরকে ভূ-লুণ্ঠিত করে, বরং বীর ঐব্যক্তি, যে ক্রোধের সময় নিজেকে &#10;নিয়ন্ত্রণ করিতে পারে।&#10;৪২. যদি তোমার লজ্জা না থাকে, তাহা হইলে যাহা ইচ্ছা তাহাই করিতে পার।&#10;৪৩. আল্লাহ তা’আলার নিকট ঐ আমল সবচেয়ে বেশী প্রিয়, যাহা সদা সর্বদা করা হয়, যদিও তাহা অল্প হয় ।&#10;৪৪. তোমাদের মধ্যে আমার নিকট ঐ ব্যক্তি বেশী প্রিয়, যে বেশী চরিত্রবান।&#10;৪৫. দুনিয়া মুসলমানদের জন্য কয়েদখানা এবং কাফেরদের জন্য বেহেশতখানা।&#10;৪৬. কোন ব্যক্তির জন্য তাহার অন্য কোন ভাইয়ের সহিত তিন দিনের বেশী সম্পর্ক ছিন্ন করিয়া থাকা&#10; জায়েয নাই।&#10;৪৭. কোন মুমিন একই গর্তে দুইবার দংশিত হয় না।&#10;৪৮. ঐ ব্যক্তি সফল, যিনি ইসলাম গ্রহণ করিয়াছেন এবং পরিমাণ মত তাঁহার রিযিক মিলিয়াছে। আর &#10;আল্লাহ তাআলা তাহাকে তাহার রুজীর মধ্যে সন্তুষ্টি দান করিয়াছেন।&#10;৪৯.তোমাদের কেহ ততক্ষণ পর্যন্ত প্রকৃত মুমিন হইতে পারিবে না, যতক্ষণ পর্যন্ত নিজের ভাইয়ের&#10; জন্য ঐ জিনিস পছন্দ না করিবে, যাহা সে নিজে পছন্দ করে।&#10;৫০. ঐ ব্যক্তি বেহেশতে প্রবেশ করিতে পারিবে না, যাহার প্রতিবেশী তাহার অত্যাচার হইতে নিরাপদ নয়।&#10;৫১. পরস্পর দুশমনি করিও না। পরস্পর হিংসাপোষণ করিও না। একে অন্যের ছিদ্রান্বেষণ করিও না। &#10;আল্লাহ তাআলার বান্দাহ্ সকলেই ভাই ভাই হইয়া যাও।&#10;৫২. ইসলাম ঐ সমস্ত গুনাহসমূহ নিশ্চিহ্ন করিয়াদেয়, যাহা ইসলামের পূর্বে করা হইয়াছে। হিজরত ঐ সমস্&#10;ত গুনাহসমূহ নিশ্চিহ্ন করিয়া দেয়, যাহা হিজরতের পূর্বে করা হইয়াছে এবং হজ্ব ঐ সমস্ত গুনাহসমূহ নিশ্চিহ্ন &#10;করিয়া দেয়, যাহা হজ্বের পূর্বে করা হইয়াছে।&#10;৫৩. বিবাদ সৃষ্টিকারী ব্যক্তি আল্লাহ তাআলার নিকট সবচেয়ে বেশী ঘৃণিত।&#10;">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextArea>
+      <Button layoutX="826.0" layoutY="301.0" mnemonicParsing="false" onAction="#switchToHadith4" prefHeight="58.0" prefWidth="49.0" style="-fx-background-color: skyblue; -fx-background-radius: 10px;" text="&gt;">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="-11.0" layoutY="293.0" mnemonicParsing="false" onAction="#switchToHadith2" prefHeight="58.0" prefWidth="43.0" style="-fx-background-color: skyblue; -fx-background-radius: 10px;" text="&lt;">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="32.0" layoutY="630.0" mnemonicParsing="false" onAction="#switchToArabicLang" style="-fx-background-radius: 10px; -fx-background-color: skyblue;" text="Exit">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

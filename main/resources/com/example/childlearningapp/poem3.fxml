@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="422.0" prefWidth="679.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.childlearningapp.EnglishController">
+   <children>
+      <ImageView fitHeight="482.0" fitWidth="679.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@sun_sea.jpg" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" layoutX="188.0" layoutY="156.0" prefHeight="226.0" prefWidth="286.0" text="Early to Bed&#10;--------------------&#10;Early to bed&#10;Early to rise&#10;Makes a man&#10;Healthy wealthy and wise">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </TextArea>
+      <Button layoutX="623.0" layoutY="213.0" mnemonicParsing="false" onAction="#switchToPoem4" text="&gt;">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Button>
+      <Button layoutY="215.0" mnemonicParsing="false" onAction="#switchToPoem2" text="&lt;">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button layoutY="382.0" mnemonicParsing="false" onAction="#switchToEnglish" style="-fx-background-radius: 10px; -fx-background-color: skyblue;" text="Exit" textFill="#0b0000">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="697.0" prefWidth="725.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.childlearningapp.ArabicController">
+   <children>
+      <TextArea editable="false" layoutX="55.0" layoutY="37.0" prefHeight="656.0" prefWidth="664.0" text="بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ&#10;বিছমিল্লাহির রাহমানির রাহিম।&#10;শুরু করছি আল্লাহর নামে যিনি পরম করুণাময়, অতি দয়ালু।&#10;&#10;اَلَمۡ  تَرَ کَیۡفَ فَعَلَ رَبُّکَ  بِاَصۡحٰبِ الۡفِیۡلِ ؕ﴿۱&#10;আলাম তারা কাইফা ফা‘আলা রাব্বুকা বিআসহা-বিল ফীল।&#10;তুমি কি দেখনি যে, তোমার রাব্ব হস্তি অধিপতিদের কিরূপ (পরিণতি) করেছিলেন?&#10;&#10;اَلَمۡ  یَجۡعَلۡ  کَیۡدَہُمۡ فِیۡ  تَضۡلِیۡلٍ ۙ﴿۲&#10;আলাম ইয়াজ‘আল কাইদাহুম ফী তাদলীল&#10;তিনি কি তাদের চক্রান্ত ব্যর্থ করে দেননি?&#10;&#10;وَّ  اَرۡسَلَ عَلَیۡہِمۡ  طَیۡرًا  اَبَابِیۡلَ ۙ﴿۳&#10;ওয়া আরছালা ‘আলাইহিম তাইরান আবা-বীল।&#10;তাদের বিরুদ্ধে তিনি ঝাঁকে ঝাঁকে পক্ষীকূল প্রেরণ করেছিলেন –&#10;&#10;تَرۡمِیۡہِمۡ  بِحِجَارَۃٍ  مِّنۡ سِجِّیۡلٍ ۪ۙ﴿۴&#10;তারমীহিম বিহিজা-রাতিম মিন ছিজ্জীল।&#10;যারা তাদের উপর প্রস্তর কংকর নিক্ষেপ করেছিল।&#10;&#10;فَجَعَلَہُمۡ کَعَصۡفٍ مَّاۡکُوۡلٍ ﴿۵&#10;ফাজা‘আলাহুম কা‘আসফিম মা’কূল।&#10;অতঃপর তিনি তাদেরকে ভক্ষিত তৃণ সদৃশ করে দেন।">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </TextArea>
+      <Label layoutX="14.0" layoutY="4.0" prefHeight="26.0" prefWidth="438.0" style="-fx-background-color: skyblue;" text=" সূরা ফীল, মাক্কী সূরা,আয়াত সংখ্যা ৫">
+         <font>
+            <Font name="DejaVu Sans Mono Bold" size="21.0" />
+         </font>
+      </Label>
+      <Button layoutY="306.0" mnemonicParsing="false" onAction="#switchToSurahKuraish" prefHeight="58.0" prefWidth="50.0" style="-fx-background-color: skyblue; -fx-background-radius: 10px;" text="&lt;">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="-1.0" layoutY="653.0" mnemonicParsing="false" onAction="#switchToArabicLang" style="-fx-background-radius: 10px;" text="Exit">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

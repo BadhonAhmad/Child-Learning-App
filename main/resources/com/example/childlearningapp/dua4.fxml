@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="549.0" prefWidth="707.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.childlearningapp.ArabicController">
+   <children>
+      <Label layoutX="37.0" layoutY="21.0" style="-fx-background-color: indigo; -fx-background-radius: 10;" text="QURANIC DUA" textFill="#faf4f4">
+         <font>
+            <Font name="DejaVu Sans Bold" size="22.0" />
+         </font>
+      </Label>
+      <TextArea editable="false" layoutX="37.0" layoutY="58.0" prefHeight="648.0" prefWidth="902.0" text="9)&#10;رَبَّنَا وَلَا تَحۡمِلۡ عَلَيۡنَآ إِصۡرٗا كَمَا حَمَلۡتَهُۥ عَلَى ٱلَّذِينَ مِن قَبۡلِنَاۚ&#10;রাব্বানা ফাগফির লানা জুনুবানা ওয়া কাফির ‘আন্না সায়ি আতিনা ওয়া তাওয়াফ্ফানা মা’আল আবরার&#10;&quot;হে আমাদের পালনকর্তা, আমাদের গুনাহ মাফ করুন এবং আমাদের থেকে আমাদের পাপ দূর করুন এবং&#10; আমাদেরকে সৎকর্মশীলদের মধ্যে মৃত্যু দিন।&quot;- 3:193 -&#10;10)&#10;رَبَّنَآ ءَامَنَّا فَٱكْتُبْنَا مَعَ ٱلشَّٰهِدِينَ&#10;রাব্বানা আমান্না ফাকতুবনা মাআশ শাহিদিন&#10;&quot;হে আমাদের পালনকর্তা, আমরা ঈমান এনেছি, সুতরাং আমাদেরকে সাক্ষীদের মধ্যে নিবন্ধন করুন।&quot;&#10;- 5:83 -&#10;11)&#10;رَبَّنَا لَا تَجۡعَلۡنَا مَعَ ٱلۡقَوۡمِ ٱلظَّـٰلِمِينَ&#10;রাব্বানা লা তাজ’আলনা মাআল কওমিজ জাআলিমীন&#10;&quot;হে আমাদের পালনকর্তা, আমাদেরকে যালিম সম্প্রদায়ের সাথে স্থান দিও না।&quot;- 7:47 -&#10;12)&#10;رَبَّنَآ أَفْرِغْ عَلَيْنَا صَبْرًا وَتَوَفَّنَا مُسْلِمِينَ&#10;রাব্বানা আফ্রি‘আলাইনা সাবরানওয়া ওয়া তাওয়াফ্ফানা মুসলিমীন&#10;&quot;হে আমাদের পালনকর্তা, আমাদের উপর ধৈর্য্য ঢেলে দিন এবং আমাদেরকে মুসলিম হিসেবে মৃত্যু দিন।&#10;- 7:126 -">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextArea>
+      <Button layoutX="15.0" layoutY="653.0" mnemonicParsing="false" onAction="#switchToArabicLang" style="-fx-background-color: blue;" text="Exit" textFill="#fffbfb">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutY="362.0" mnemonicParsing="false" onAction="#switchToDua3" style="-fx-background-color: skyblue;" text="&lt;">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

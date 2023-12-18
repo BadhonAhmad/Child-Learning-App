@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="562.0" prefWidth="736.0" style="-fx-background-color: lightblue;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.childlearningapp.NameGameController">
+   <children>
+      <Label layoutX="38.0" layoutY="14.0" prefHeight="34.0" prefWidth="400.0" text="বাংলা ,ইংরেজি ,আরবি মাসের নাম">
+         <font>
+            <Font name="Source Sans Pro Semibold" size="23.0" />
+         </font>
+      </Label>
+      <TextArea editable="false" layoutX="24.0" layoutY="65.0" prefHeight="441.0" prefWidth="183.0" text="ইংরেজি&#10;------------&#10;January&#10;February&#10;March&#10;April&#10;May &#10;June &#10;July &#10;August&#10;September&#10;October&#10;November&#10;December">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextArea>
+      <TextArea editable="false" layoutX="245.0" layoutY="64.0" prefHeight="442.0" prefWidth="183.0" text="বাংলা &#10;----------&#10;বৈশাখ&#10;জ্যৈষ্ঠ&#10;আষাঢ়&#10;শ্রাবণ&#10;ভাদ্র&#10;আশ্বিন&#10;কার্তিক&#10;অগ্রহায়ণ&#10;পৌষ&#10;মাঘ&#10;ফাল্গুন&#10;চৈত্র ">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextArea>
+      <TextArea editable="false" layoutX="472.0" layoutY="64.0" prefHeight="442.0" prefWidth="201.0" text=" আরবি&#10;----------&#10; মহররম&#10;সফর&#10;রবিউল আউয়াল&#10;রবিউস সানি&#10;জমাদিউল আউয়াল&#10;জমাদিউস সানি&#10;রজব&#10;শাবান&#10;রমাদান&#10;শাওয়াল&#10;জিলক্বদ&#10;জিলহজ্জ">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextArea>
+      <Button layoutX="31.0" layoutY="523.0" mnemonicParsing="false" onAction="#switchToDays1" text="Exit">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

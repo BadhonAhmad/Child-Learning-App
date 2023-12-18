@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: skyblue;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.childlearningapp.EnglishController">
+   <children>
+      <Label layoutX="19.0" layoutY="24.0" prefHeight="31.0" prefWidth="345.0" style="-fx-background-color: blue; -fx-background-radius: 10px;" text="1 to 50 with spelling:" textFill="#f4f2f2">
+         <font>
+            <Font name="DejaVu Sans Bold" size="26.0" />
+         </font>
+      </Label>
+      <TextArea editable="false" layoutX="19.0" layoutY="55.0" prefHeight="590.0" prefWidth="206.0" text="1-one&#10;2-two&#10;3-three&#10;4-four&#10;5-five&#10;6-six&#10;7-seven&#10;8-eight&#10;9-nine&#10;10-ten&#10;11-eleven&#10;12-twelve&#10;13-thirteen&#10;14-fourteen&#10;15-fifteen&#10;16-sixteen&#10;17-seventeen&#10;18-eighteen&#10;19-nineteen">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextArea>
+      <TextArea editable="false" layoutX="249.0" layoutY="58.0" prefHeight="590.0" prefWidth="250.0" text="20-twenty&#10;21-twenty one&#10;22-twenty-two&#10;23-twenty-three&#10;24-twenty-four&#10;25-twenty-five&#10;26-twenty-six&#10;27-twenty-seven&#10;28-twenty-eight&#10;29-twenty nine&#10;30-thirty&#10;31-thirty one&#10;32-thirty-two&#10;33-thirty-three&#10;34-thirty-four&#10;35-thirty-five&#10;36-thirty six&#10;37-thirty seven&#10;38-thirty eight">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextArea>
+      <TextArea editable="false" layoutX="522.0" layoutY="62.0" prefHeight="590.0" prefWidth="284.0" text="39-forty-nine&#10;40-forty&#10;41-forty one&#10;42-forty-two&#10;43-forty-three&#10;44-forty-four&#10;45-forty-five&#10;46-forty-six&#10;47-forty seven&#10;48-forty-eight&#10;49-forty nine&#10;50-fifty">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextArea>
+      <Button layoutX="537.0" layoutY="598.0" mnemonicParsing="false" onAction="#switchToEnglish" style="-fx-background-radius: 10px; -fx-background-color: skyblue;" text="back" textFill="#0b0000">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

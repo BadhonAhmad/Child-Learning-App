@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="515.0" prefWidth="686.0" style="-fx-background-color: skyblue;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.childlearningapp.NameGameController">
+   <children>
+      <Label layoutX="48.0" layoutY="24.0" prefHeight="34.0" prefWidth="400.0" text="বাংলা ,ইংরেজি ,আরবি ঋতুর নাম">
+         <font>
+            <Font name="Source Sans Pro Semibold" size="23.0" />
+         </font>
+      </Label>
+      <TextArea editable="false" layoutX="34.0" layoutY="75.0" prefHeight="330.0" prefWidth="190.0" style="-fx-background-color: blue;" text="ইংরেজি&#10;------------&#10;Summer&#10;Rainy&#10;Autumn&#10;Late Autumn&#10;Winter&#10;Spring">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextArea>
+      <TextArea editable="false" layoutX="251.0" layoutY="74.0" prefHeight="330.0" prefWidth="183.0" text="বাংলা &#10;----------&#10;গ্রীষ্ম&#10;বর্ষা&#10;শরৎ&#10;হেমন্ত&#10;শীত&#10;বসন্ত">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextArea>
+      <TextArea editable="false" layoutX="469.0" layoutY="74.0" prefHeight="330.0" prefWidth="176.0" text=" আরবি&#10;----------&#10;ছাইফুন&#10;মাতিরুন&#10;খারীফুন&#10;বাসারাতুন&#10;শিতাউন&#10;রাবীউন">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextArea>
+      <Button layoutX="25.0" layoutY="464.0" mnemonicParsing="false" onAction="#switchToDays1" text="Exit">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

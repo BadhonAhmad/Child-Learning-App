@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="654.0" prefWidth="818.0" style="-fx-background-color: skyblue;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.childlearningapp.SceneController">
+   <children>
+      <TextArea editable="false" layoutX="26.0" layoutY="39.0" prefHeight="598.0" prefWidth="779.0" text="The &quot;Child Learning App&quot; is a Java application designed to &#10;provide an interactive and educational experience for &#10;children. This section provides an overview of the app's &#10;features and functionalities.&#10;User Interface (UI):&#10;The app has a visually appealing and child-friendly user &#10;interface. It incorporates intuitive controls to create an &#10;interactive learning environment.&#10;Subject Categories:&#10;The app covers a wide range of subjects, including language&#10; and more. Each subject category is accessible through a &#10;dedicated section, allowing children to choose their areas of &#10;interest and explore various topics.&#10;Quiz Tests:&#10;Some quiz tests and name identifying tests are available.&#10;Overall, the Child Learning App is designed to make learning&#10; enjoyable,interactive, and accessible for children. &#10;This application was created as a part of CSE-234 course.&#10;&#10;Supervised by: &#10;Md. Eamin Rahman ,&#10;Assistant Professor,CSE,SUST.&#10;&#10;Developed by:&#10;Nobel Ahmad Badhon&#10;2020331030,CSE,SUST.">
+         <font>
+            <Font name="DejaVu Sans Bold" size="21.0" />
+         </font>
+      </TextArea>
+      <Button layoutX="730.0" layoutY="609.0" mnemonicParsing="false" onAction="#switchToFirst" style="-fx-background-color: blue;" text="Back" textFill="#ececec">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Label layoutX="26.0" layoutY="9.0" style="-fx-background-color: indigo; -fx-background-radius: 8;" text="About this app" textFill="#f4f2f2">
+         <font>
+            <Font name="DejaVu Sans Bold" size="23.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
